@@ -58,7 +58,7 @@ params:
           enabled: true
           title: Shyam Nandan Rai
           subtitle: "Ciao! 👋
-I am a fourth-year ELLIS doctoral student at **Politecnico di Torino**. My research is jointly supervised by [**Prof. Barbara Caputo**](https://tianyi-zhang.github.io/), with co-supervision from  **Prof. Zeynep Akata** and **Prof. Carlo Masone**. My current area of research focuses on improving **scene understanding** using foundational models."
+I am a fourth-year ELLIS doctoral student at **Politecnico di Torino**. My research is jointly supervised by [**Prof. Barbara Caputo**](https://vandal.polito.it/index.php/people/barbaracaputo/), with co-supervision from  [**Prof. Zeynep Akata**](https://www.eml-munich.de/people/zeynep-akata) and [**Prof. Carlo Masone**](https://cmas1.github.io). My current area of research focuses on improving **scene understanding** using foundational models."
           imageUrl: "/picture.jpeg"
           imageWidth: 160
           imageHeight: 160
