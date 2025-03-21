@@ -1,0 +1,107 @@
+baseURL: "https://username.github.io" 
+title: Shyam Nandan Rai
+theme: PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+#paginate: 20
+
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: /papers/
+          weight: 1
+        - name: Courses
+          url: /courses/
+          weight: 2
+        - name: Design
+          url: /design/
+          weight: 3        
+        - name: Tags
+          url: /tags/
+          weight: 4
+        - name: Archive
+          url: /archive/
+          weight: 5
+
+params:
+    description: "This website hosts Pascal Michaillat's research papers, course materials, design templates, curriculum vitae, and contact information."
+    author: Shyam Nandan Rai
+    images: ["cover.png"]
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["papers","courses","design"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Shyam Nandan Rai
+          subtitle: "Ciao! 👋
+I am a fourth-year ELLIS doctoral student at **Politecnico di Torino**. My research is jointly supervised by [**Prof. Barbara Caputo**](https://tianyi-zhang.github.io/), with co-supervision from  **Prof. Zeynep Akata** and **Prof. Carlo Masone**. My current area of research focuses on improving **scene understanding** using foundational models."
+          imageUrl: "/picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            # - name: Research
+            #   url: /research.html
+            - name: Research
+              url: /design/
+            - name: Resume
+              url: /cv.pdf
+            # - name: Tags
+            #   url: /tags/
+            # - name: Archive
+            #   url: /archive/
+
+    socialIcons:
+        - name: Email
+          url: mailto:shyam.rai@polito.it
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=cKWXiTgAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/shyam671
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: true
+        hiddenInSingle: true
+    label:
+      text: "Pascal Michaillat"
+      icon: /favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn  
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
+
+titleCaseStyle: 'none'
